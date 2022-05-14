@@ -2,7 +2,7 @@ package ru.shishkin.javaLesson.lesson3;
 
 import javax.swing.*;
 
-public class Lesson3 {
+public class ApplicationLesson3 {
     public static void main(String[] args) {
         JFrame wnd2 = new JFrame();
         wnd2.setBounds(125, 100, 100, 100);

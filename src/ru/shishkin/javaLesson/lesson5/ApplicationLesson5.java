@@ -1,6 +1,6 @@
 package ru.shishkin.javaLesson.lesson5;
 
-public class Lesson5 {
+public class ApplicationLesson5 {
     public static void main(String[] args) {
         Animals dog = new Animals("����");
         dog.dlina = 1.5;

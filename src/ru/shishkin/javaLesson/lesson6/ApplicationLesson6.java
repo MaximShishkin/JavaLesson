@@ -1,8 +1,8 @@
 package ru.shishkin.javaLesson.lesson6;
 
-public class Lesson6 {
+public class ApplicationLesson6 {
     public static void main(String[] args) {
-        FrameLesson6 okno = new FrameLesson6();
+        new FrameLesson6();
     }
 }
 

@@ -2,7 +2,7 @@ package ru.shishkin.javaLesson.lesson2;
 
 import javax.swing.*;
 
-public class Lesson2 {
+public class ApplicationLesson2 {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             JFrame nf = new JFrame();

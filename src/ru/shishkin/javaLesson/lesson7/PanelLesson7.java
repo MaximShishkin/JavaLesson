@@ -10,7 +10,6 @@ import java.awt.event.KeyListener;
 import java.io.File;
 
 public class PanelLesson7 extends JPanel {
-
     private int x = 0, y = 0;
     private int napr = 2;
     private Image img;

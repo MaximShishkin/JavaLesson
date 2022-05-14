@@ -10,33 +10,26 @@ class PanelLesson4 extends JPanel {
 
     public class myMouse1 implements MouseListener {
         public void mouseClicked(MouseEvent e) {
-
         }
 
         public void mousePressed(MouseEvent e) {
-
         }
 
         public void mouseReleased(MouseEvent e) {
-
         }
 
         public void mouseEntered(MouseEvent e) {
-
         }
 
         public void mouseExited(MouseEvent e) {
-
         }
     }
 
     public class myMouse2 implements MouseMotionListener {
         public void mouseDragged(MouseEvent e) {
-
         }
 
         public void mouseMoved(MouseEvent e) {
-
         }
     }
 
@@ -47,6 +40,5 @@ class PanelLesson4 extends JPanel {
     }
 
     public void paintComponent(Graphics gr) {
-
     }
 }
