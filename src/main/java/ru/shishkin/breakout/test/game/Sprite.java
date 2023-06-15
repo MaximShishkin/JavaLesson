@@ -1,4 +1,4 @@
-package ru.shishkin.javaLesson.test.game;
+package ru.shishkin.breakout.test.game;
 
 import java.awt.Image;
 import java.awt.Rectangle;
