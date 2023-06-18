@@ -3,7 +3,6 @@ package ru.shishkin.breakout;
 import javax.swing.ImageIcon;
 
 public class Ball extends Sprite {
-
     private int xdir;
     private int ydir;
 

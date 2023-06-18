@@ -17,7 +17,6 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Board extends JPanel {
-
     private Timer timer;
     private String message = "Game Over";
     private Ball ball;
