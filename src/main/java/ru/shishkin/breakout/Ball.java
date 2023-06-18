@@ -1,4 +1,4 @@
-package ru.shishkin.breakout.test.game;
+package ru.shishkin.breakout;
 
 import javax.swing.ImageIcon;
 
@@ -13,7 +13,7 @@ public class Ball extends Sprite {
     }
 
     private void initBall() {
-        
+
         xdir = 1;
         ydir = -1;
 

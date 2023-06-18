@@ -1,4 +1,4 @@
-package ru.shishkin.breakout.test.game;
+package ru.shishkin.breakout;
 import java.awt.event.KeyEvent;
 
 import javax.swing.ImageIcon;
