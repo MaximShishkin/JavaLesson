@@ -91,8 +91,7 @@ public class Board extends JPanel {
 
         g2d.setColor(Color.BLACK);
         g2d.setFont(font);
-        g2d.drawString(message, (Commons.WIDTH - fontMetrics.stringWidth(message)) / 2,
-                Commons.WIDTH / 2);
+        g2d.drawString(message, (Commons.WIDTH - fontMetrics.stringWidth(message)) / 2, Commons.WIDTH / 2);
     }
 
     private class TAdapter extends KeyAdapter {
@@ -137,7 +136,7 @@ public class Board extends JPanel {
             }
 
             if (j == Commons.N_OF_BRICKS) {
-                message = "congratulation!";
+                message = "Congratulation!";
                 stopGame();
             }
         }

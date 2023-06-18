@@ -20,8 +20,7 @@ public class Brick extends Sprite {
     }
 
     private void loadImage() {
-        var ii = new ImageIcon("src/resources/brick.png");
-        image = ii.getImage();
+        image = new ImageIcon(getClass().getClassLoader().getResource("brick.png")).getImage();
     }
 
     boolean isDestroyed() {

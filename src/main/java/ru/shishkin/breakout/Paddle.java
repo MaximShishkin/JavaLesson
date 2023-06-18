@@ -18,8 +18,7 @@ public class Paddle extends Sprite {
     }
 
     private void loadImage() {
-        var ii = new ImageIcon("src/resources/paddle.png");
-        image = ii.getImage();
+        image = new ImageIcon(getClass().getClassLoader().getResource("paddle.png")).getImage();
     }
 
     void move() {
@@ -45,7 +44,6 @@ public class Paddle extends Sprite {
             dx = 1;
         }
     }
-
 
     void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
