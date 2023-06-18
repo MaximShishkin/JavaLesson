@@ -47,6 +47,4 @@ public class Sprite {
         imageWidth = image.getWidth(null);
         imageHeight = image.getHeight(null);
     }
-
-
 }

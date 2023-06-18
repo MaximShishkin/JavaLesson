@@ -1,11 +1,9 @@
 package ru.shishkin.breakout;
 
 import java.awt.event.KeyEvent;
-
 import javax.swing.ImageIcon;
 
 public class Paddle extends Sprite {
-
     private int dx;
 
     public Paddle() {
@@ -17,14 +15,11 @@ public class Paddle extends Sprite {
         getImageDimensions();
 
         resetState();
-
     }
 
     private void loadImage() {
-
         var ii = new ImageIcon("src/resources/paddle.png");
         image = ii.getImage();
-
     }
 
     void move() {
@@ -32,31 +27,23 @@ public class Paddle extends Sprite {
 
         if (x <= 0) {
             x = 0;
-
         }
 
         if (x >= Commons.WIDTH - imageWidth) {
             x = Commons.WIDTH - imageWidth;
-
         }
-
-
     }
 
     void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
 
         if (key == KeyEvent.VK_LEFT) {
-
             dx = -1;
         }
 
         if (key == KeyEvent.VK_RIGHT) {
-
             dx = 1;
         }
-
-
     }
 
 
@@ -64,24 +51,16 @@ public class Paddle extends Sprite {
         int key = e.getKeyCode();
 
         if (key == KeyEvent.VK_LEFT) {
-
             dx = 0;
         }
 
         if (key == KeyEvent.VK_RIGHT) {
-
             dx = 0;
         }
-
-
     }
 
-
     private void resetState() {
-
         x = Commons.INIT_PADDLE_X;
         y = Commons.INIT_PADDLE_Y;
     }
-
-
 }
