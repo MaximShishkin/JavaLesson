@@ -1,10 +1,10 @@
-package ru.shishkin.breakout;
+package ru.shishkin.maxim.breakout;
 
 import javax.swing.JFrame;
 import java.awt.EventQueue;
 
-public class Application extends JFrame {
-    public Application() {
+public class App extends JFrame {
+    public App() {
         initUI();
     }
 
@@ -20,7 +20,7 @@ public class Application extends JFrame {
 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
-            var game = new Application();
+            var game = new App();
             game.setVisible(true);
         });
     }

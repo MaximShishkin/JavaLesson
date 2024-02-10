@@ -1,4 +1,4 @@
-package ru.shishkin.breakout;
+package ru.shishkin.maxim.breakout;
 
 public interface Commons {
     int WIDTH = 300;

@@ -1,4 +1,4 @@
-package ru.shishkin.breakout;
+package ru.shishkin.maxim.breakout;
 
 import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
