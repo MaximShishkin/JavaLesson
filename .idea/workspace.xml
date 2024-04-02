@@ -17,21 +17,23 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="25xWpyKPXNmTkwp4O59hizbu5n5" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Breakout [clean].executor": "Run",
+    "Maven.Breakout [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/gitt/breakout",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/gitt/gauss-seidel-method",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -39,10 +41,10 @@
       <recent name="D:\Files\MakShish\Desktop\my\breakout-\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.shishkin.maxim.breakout.App" />
-      <module name="Breakout" />
+      <module name="breakout" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.shishkin.breakout.*" />
@@ -55,7 +57,7 @@
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.shishkin.breakout.Application" />
-      <module name="Breakout" />
+      <module name="breakout" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.shishkin.breakout.*" />
